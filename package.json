@@ -2,11 +2,10 @@
   "dependencies": {
     "apexcharts": "^4.5.0",
     "axios": "^1.8.4",
-    "react-apexcharts": "^1.7.0"
+    "react-apexcharts": "^1.7.0",
+    "react-scripts": "^5.0.1"
   },
-"scripts": {
-"build": "react-scripts build"
-}
-
-
+  "scripts": {
+    "build": "react-scripts build"
+  }
 }
