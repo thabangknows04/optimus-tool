@@ -5,7 +5,7 @@
     "react-apexcharts": "^1.7.0"
   },
 "scripts": {
-  "postinstall": "cd client && yarn install"
+"build": "react-scripts build"
 }
 
 
