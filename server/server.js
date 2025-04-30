@@ -17,7 +17,7 @@ connectDB();
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:3000", // React development server address
+    origin: "https://client-t3p0.onrender.com", // React development server address
     methods: "GET, POST, PUT, DELETE", // Allowable methods
     credentials: true, // If you want to include cookies in the requests
   })
@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
   res.send("🚀  Backend is running!");
 });
 
-const PORT = process.env.PORT || 5010;
+const PORT = process.env.PORT || 433;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
