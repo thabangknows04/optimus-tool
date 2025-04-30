@@ -3,5 +3,8 @@
     "apexcharts": "^4.5.0",
     "axios": "^1.8.4",
     "react-apexcharts": "^1.7.0"
+  },
+  "scripts": {
+    "build": "cd client && npm install && npm run build"
   }
 }
