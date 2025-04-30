@@ -4,7 +4,8 @@
     "axios": "^1.8.4",
     "react-apexcharts": "^1.7.0"
   },
-  "scripts": {
-    "render-build": "cd client && npm install && npm run build"
-  }
+"scripts": {
+ "build": "cd client && yarn install && yarn build"
+}
+
 }
